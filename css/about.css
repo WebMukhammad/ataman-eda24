@@ -1,0 +1,148 @@
+.about_us .flex {
+    justify-content: space-between;
+}
+.about_head {
+    max-width: 800px;
+}
+.cooperation p {
+    margin: 0;
+}
+.fs16 {
+    line-height: 25px;
+}
+.fs20 {
+    line-height: 31px;
+}
+.el_about {
+    width: calc( (100% - 80px) / 3 );
+    margin-top: 40px;
+}
+.el_about .fs24 {
+    margin-top: 0;
+}
+.el_about .fs18 {
+    line-height: 28px;
+    margin-bottom: 0;
+}
+hr {
+    margin: 40px 0;
+}
+.cooperation {
+    width: 65%;
+    margin-right: 40px;
+}
+.el_cooperation {
+    width: calc( (100% - 40px) / 2 );
+    margin-top: 40px;
+}
+.el_cooperation p:first-child {
+    margin-bottom: 16px;
+}
+.partner_form {
+    width: calc( (100% - 80px) / 3 );
+    border: 1px solid var(--light3-color);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px;
+    align-self: flex-start;
+}
+.partner_form h3 {
+    margin-bottom: 40px;
+}
+.partner_form input {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+.about_us input:not([type='checkbox']):not([type='radio']):not([type='range']):not([type='submit']) {
+    padding: 16px;
+}
+.about_us .placeholder {
+    top: 18px;
+}
+.partner_form input[type="submit"] {
+    padding: 12px 0;
+    border: none;
+    margin: 8px 0 0;
+}
+
+@media screen and (max-width: 992px) {
+
+    .fs48 {
+        font-size: 24px;
+    }
+
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .container:last-child {
+        padding: 0;
+    }
+    .about_us h2 {
+        margin-bottom: 40px;
+    }
+    .about_head {
+        margin: 0;
+    }
+    .cooperation {
+        width: 100%;
+        padding: 0 16px 36px;
+        margin-right: 0;
+        border-bottom: 1px solid var(--light3-color);
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .partner_form input[type="submit"] {
+        padding: 16px 0;
+    }
+    .cooperation .fs32 {
+        font-size: 24px;
+    }
+    .el_about .fs24 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .el_about .fs18 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .partner_form {
+        width: 100%;
+        max-width: 425px;
+        margin: 48px auto 0;
+        border: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 16px;
+    }
+    .partner_form h3 {
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+    hr {
+        margin: 48px 0;
+    }
+    .el_cooperation .fs20 {
+        font-size: 16px;
+    }
+    .el_cooperation svg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .el_about {
+        width: 100%;
+    }
+    .el_cooperation {
+        width: 100%;
+    }
+}

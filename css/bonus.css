@@ -1,0 +1,138 @@
+.bonus_page {
+    width: 90%;
+}
+.bonus_contain {
+    margin: 80px 0 40px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.bonus_page p {
+    margin: 0;
+}
+.bonus_page h2 {
+    margin-bottom: 0;
+}
+.point {
+    color: var(--dark3-color);
+}
+.el_desc_bonus {
+    width: 28%;
+    margin-bottom: 60px;
+    min-width: 250px;
+}
+.bonus_page .image {
+    justify-content: space-between;
+}
+.bonus_page .name {
+    margin-top: 32px;
+}
+.bonus_page .desc {
+    margin-top: 24px;
+    line-height: 27px;
+    font-family: Roboto;
+}
+.auth .fs40 {
+    margin-bottom: -16px;
+}
+.not_auth .fs24 {
+    margin-bottom: 12px;
+}
+.not_auth .fs18 {
+    color: var(--dark3-color);
+}
+.not_auth .transparent_btn {
+    margin: 0;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 1350px) {
+    .bonus_contain {
+        margin: 60px 0 36px;
+    }
+    .el_desc_bonus {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    
+    .bonus_contain {
+        margin: 40px 0 32px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .balance  {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .auth span.fs104 {
+        font-size: 48px;
+        display: block;
+    }
+    .el_desc_bonus {
+        text-align: center;
+        margin-bottom: 64px;
+    }
+    .el_desc_bonus:first-child {
+        margin-top: 32px;
+    }
+    .el_desc_bonus:last-child {
+        margin-bottom: 0;
+    }
+    .bonus_page .image {
+        justify-content: center;
+    }
+    .bonus_page {
+        width: calc(100% - 32px);
+        margin: 0 16px;
+    }
+    .auth p.fs24 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .bonus_page h2 {
+        font-size: 24px;
+    }
+    .bonus_page .image > img:last-child {
+        display: none;
+    }
+    .bonus_page .point {
+        margin-top: 32px;
+        font-size: 24px;
+    }
+    .not_auth .fs24 {
+        font-size: 20px;
+    }
+    .not_auth .fs18 {
+        font-size: 14px;
+    }
+    .auth .fs40 {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .main .auth_btn {
+        width: 100%;
+    }
+    .not_auth {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .balance > div:first-child {
+        width: 100%;
+    }
+    .main .auth_btn {
+        max-width: none;
+    }
+    .not_auth {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 375px) { 
+    .not_auth .fs24 {
+        font-size: 18px;
+    }
+}
